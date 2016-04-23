@@ -11,7 +11,9 @@ Pod::Spec.new do |s|
 
   s.author       = { "williamlocke" => "williamlocke@me.com" }
 
-  s.source       = { :git => "https://github.com/adtrade/AdtradeAPI.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/adtrade/adtrade-ios-api.git", :tag => s.version.to_s }
+
+  s.dependency 'ATNetworking'
 
   s.platform     = :ios, '6.0'
   

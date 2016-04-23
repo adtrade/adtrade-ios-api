@@ -1,12 +1,10 @@
 platform :ios, 8.0
 target 'AdtradeAPI' do
 	pod 'AdtradeAPI', :path => '../'
-	pod 'ATNetworking', :git => 'https://github.com/adtrade/ATNetworking.git'
 end
 
 target 'AdtradeAPITests' do
 	pod 'AdtradeAPI', :path => '../'
-	pod 'ATNetworking', :git => 'https://github.com/adtrade/ATNetworking.git'
 end
 
 
