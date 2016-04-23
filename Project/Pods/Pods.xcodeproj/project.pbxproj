@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0262174E30F692D4995B80D5E0E6F316 /* ATDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC97B7F3B45C6B2E8A3744E69C0AC6 /* ATDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08977E63AECBEE2C952899EC230599EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD82922EB39FDD80B9965CCBD8D1B696 /* Foundation.framework */; };
+		38374150C6DA6907AEB90A75E57E99CE /* ATWebApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 18267BB7961E096ECD105C7D0C9C0C11 /* ATWebApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55470D27A0BB566994FE473235B4DE6C /* ATConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 76118F6E51421A88ED5044A5FCB3FA5D /* ATConstants.m */; };
+		5F3742B98E614A4BAAD2C7C6FBBCB077 /* ATHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 889286683F89BE6C0DCD74AC9B02155A /* ATHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A19DD76C80A0425FED479A5C60ECA44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD82922EB39FDD80B9965CCBD8D1B696 /* Foundation.framework */; };
+		7174529BE36C080A1DF3EB97B336E196 /* ATWebApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E9EAFA34CF7E7AA53F1CC5BEB359EF /* ATWebApiResponse.m */; };
+		781F962F58405228DEE20ADE4E84418D /* ATConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C61EB6E6E26D6CA4C383FD5CBED592 /* ATConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0A87FC95966072922A421045B82780 /* ATNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E419250FBC94D472115C800E9E1F32 /* ATNetworking.m */; };
+		7C6644204917D2719B573BAC35748982 /* Pods-AdtradeAPITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A389EED4AF72956D02AF7DB7A3F23392 /* Pods-AdtradeAPITests-dummy.m */; };
+		82B72FC3C7966017317BC7A3C64FAFE1 /* ATNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C3DC0AFF2C7182191E00E0C80EFC0C /* ATNetworking-dummy.m */; };
+		9EA48B2384825628CEC938C4A57E30FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD82922EB39FDD80B9965CCBD8D1B696 /* Foundation.framework */; };
+		B2413DAACAE896EF46049B43E141F478 /* ATDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE754F077C8456F211A9B5E96B704A7F /* ATDate.m */; };
+		D4F6F0550AEF2B347DF8EBA7F818DA05 /* AdtradeAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = E376BC79BBFFA4B01EF597D9B6CAD396 /* AdtradeAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5023C684EE7718226B1667734738F02 /* AdtradeAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE5BCB80538856C2AFE19AD7B773D8A /* AdtradeAPI.m */; };
+		DA20F5B9C2CDC443AAB159032B3D4AD1 /* ATNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E74CAD363309BE8FE8A8EA1AEBB14D /* ATNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD1C9D20CA2217B260DF5990355AAC03 /* AdtradeAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4981343EBDA5EEB496EB5198EBB4 /* AdtradeAPI-dummy.m */; };
+		E1A806A671E917A313791DF6F4B68D0A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB2A0D408E9EC74272D7DD1B89DDFC5 /* AdSupport.framework */; };
+		EDD6F298A627900E48D6C1B4144A6D4E /* Pods-AdtradeAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F5BF609DADD68983CF9D06AE6BC920 /* Pods-AdtradeAPI-dummy.m */; };
+		F2E5B320D058D396865762F492E263BF /* ATHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D54CBDE4B9ADCA3E7393DFBE422A7BB1 /* ATHTTPRequest.m */; };
+		F66C98E96EC74A20B96889976F512AD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD82922EB39FDD80B9965CCBD8D1B696 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53ABA4E0428BE5C7B006A7222B99DDFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6366F35C2010974A01A79E1E7C6C5266;
+			remoteInfo = ATNetworking;
+		};
+		6FDF9476E937232376ADAB3B1A8C9C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A963B0419CD9E2D7CEC988CE7F4CCC;
+			remoteInfo = AdtradeAPI;
+		};
+		9E1DA4D6FDB3DF3C24FD7C9278B57AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A963B0419CD9E2D7CEC988CE7F4CCC;
+			remoteInfo = AdtradeAPI;
+		};
+		A71FAAA748414A0B67135BC543C0F24B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6366F35C2010974A01A79E1E7C6C5266;
+			remoteInfo = ATNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06168D9F11C27AF11B6D5D7DCF49FCCD /* Pods-AdtradeAPITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdtradeAPITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1460A4C8216417A7BE5B145166ED7438 /* libPods-AdtradeAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdtradeAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18267BB7961E096ECD105C7D0C9C0C11 /* ATWebApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATWebApiResponse.h; path = Classes/ATNetworking/ATWebApiResponse.h; sourceTree = "<group>"; };
+		18F5C394AADBBC8C98151106600FE4D5 /* Pods-AdtradeAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdtradeAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37F5BF609DADD68983CF9D06AE6BC920 /* Pods-AdtradeAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdtradeAPI-dummy.m"; sourceTree = "<group>"; };
+		3B4FD8FD3FEFD92C61C2BD6925604CC5 /* Pods-AdtradeAPITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdtradeAPITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BFFA046CB5899D86A607B0479A7B37A /* Pods-AdtradeAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdtradeAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		3DC0EA065A0C2877FD655C69D6C5347E /* Pods-AdtradeAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdtradeAPI.release.xcconfig"; sourceTree = "<group>"; };
+		40AE81ECC4699C75D5C2372628A44D86 /* libAdtradeAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAdtradeAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB65190E9D262950E15456C53B21F53 /* Pods-AdtradeAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdtradeAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5105A8091B50F77F3C7D9256EF091121 /* ATNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATNetworking-prefix.pch"; sourceTree = "<group>"; };
+		56B3F96FF9CA99972CF342AE4CEE6E12 /* AdtradeAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdtradeAPI-prefix.pch"; sourceTree = "<group>"; };
+		5D9BA0CEA5F544821F60C956AEBAC3CE /* ATNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATNetworking.xcconfig; sourceTree = "<group>"; };
+		62C3DC0AFF2C7182191E00E0C80EFC0C /* ATNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATNetworking-dummy.m"; sourceTree = "<group>"; };
+		62D3A3B1FA09EF83C3642E153A3FD1BE /* Pods-AdtradeAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdtradeAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		7344ACD7F836B25394C52C238C82610C /* Pods-AdtradeAPITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdtradeAPITests-frameworks.sh"; sourceTree = "<group>"; };
+		76118F6E51421A88ED5044A5FCB3FA5D /* ATConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ATConstants.m; sourceTree = "<group>"; };
+		7EE5BCB80538856C2AFE19AD7B773D8A /* AdtradeAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AdtradeAPI.m; sourceTree = "<group>"; };
+		856E34F7CF72FE752788EC506F9D7E1D /* AdtradeAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdtradeAPI.xcconfig; sourceTree = "<group>"; };
+		86FE06FA703749716AABFF8324BC68D3 /* libATNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libATNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		889286683F89BE6C0DCD74AC9B02155A /* ATHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATHTTPRequest.h; path = Classes/ATNetworking/ATHTTPRequest.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97FC97B7F3B45C6B2E8A3744E69C0AC6 /* ATDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATDate.h; path = Classes/ATNetworking/ATDate.h; sourceTree = "<group>"; };
+		9BC02B8D88CFE617F2D9E6EDFFB3B8F3 /* Pods-AdtradeAPI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdtradeAPI-frameworks.sh"; sourceTree = "<group>"; };
+		9DB2A0D408E9EC74272D7DD1B89DDFC5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		A2C61EB6E6E26D6CA4C383FD5CBED592 /* ATConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ATConstants.h; sourceTree = "<group>"; };
+		A389EED4AF72956D02AF7DB7A3F23392 /* Pods-AdtradeAPITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdtradeAPITests-dummy.m"; sourceTree = "<group>"; };
+		CA0F4981343EBDA5EEB496EB5198EBB4 /* AdtradeAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdtradeAPI-dummy.m"; sourceTree = "<group>"; };
+		CCAB241E7523A9C3E81E3B8C4D6ECA16 /* Pods-AdtradeAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdtradeAPI-resources.sh"; sourceTree = "<group>"; };
+		CD82922EB39FDD80B9965CCBD8D1B696 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE754F077C8456F211A9B5E96B704A7F /* ATDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATDate.m; path = Classes/ATNetworking/ATDate.m; sourceTree = "<group>"; };
+		D0E74CAD363309BE8FE8A8EA1AEBB14D /* ATNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATNetworking.h; path = Classes/ATNetworking.h; sourceTree = "<group>"; };
+		D54CBDE4B9ADCA3E7393DFBE422A7BB1 /* ATHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATHTTPRequest.m; path = Classes/ATNetworking/ATHTTPRequest.m; sourceTree = "<group>"; };
+		E339BB4CFF94554B4A5673668C30D303 /* libPods-AdtradeAPITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdtradeAPITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E376BC79BBFFA4B01EF597D9B6CAD396 /* AdtradeAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AdtradeAPI.h; sourceTree = "<group>"; };
+		EB52B5B9EC1CEA7389A8EC5067F88DD1 /* Pods-AdtradeAPITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdtradeAPITests-resources.sh"; sourceTree = "<group>"; };
+		F3E419250FBC94D472115C800E9E1F32 /* ATNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATNetworking.m; path = Classes/ATNetworking.m; sourceTree = "<group>"; };
+		F6E9EAFA34CF7E7AA53F1CC5BEB359EF /* ATWebApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATWebApiResponse.m; path = Classes/ATNetworking/ATWebApiResponse.m; sourceTree = "<group>"; };
+		FEBB0D70BAC56A589A389DAFE4651F1A /* Pods-AdtradeAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdtradeAPI-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266007D4CCF1157229BD63FF57D01445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA48B2384825628CEC938C4A57E30FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636B518D8C7EC409402A1C5D424E36DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A806A671E917A313791DF6F4B68D0A /* AdSupport.framework in Frameworks */,
+				08977E63AECBEE2C952899EC230599EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFF9C16A88D9B58EFE22FB9A173225D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A19DD76C80A0425FED479A5C60ECA44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8027A60E5F73EAA24CE282C47FAC2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66C98E96EC74A20B96889976F512AD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FE659D90C5487F053CA7EE7FE701C1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E376BC79BBFFA4B01EF597D9B6CAD396 /* AdtradeAPI.h */,
+				7EE5BCB80538856C2AFE19AD7B773D8A /* AdtradeAPI.m */,
+				D4902140A848092688248367FD502C51 /* AdtradeAPI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CC074E0502199920A8912CA2B6D9D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A54DFB66AC89921020A5DEC5A870E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40AE81ECC4699C75D5C2372628A44D86 /* libAdtradeAPI.a */,
+				86FE06FA703749716AABFF8324BC68D3 /* libATNetworking.a */,
+				1460A4C8216417A7BE5B145166ED7438 /* libPods-AdtradeAPI.a */,
+				E339BB4CFF94554B4A5673668C30D303 /* libPods-AdtradeAPITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A5BC08424E841A58DCCCC58C6A4DEDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				856E34F7CF72FE752788EC506F9D7E1D /* AdtradeAPI.xcconfig */,
+				CA0F4981343EBDA5EEB496EB5198EBB4 /* AdtradeAPI-dummy.m */,
+				56B3F96FF9CA99972CF342AE4CEE6E12 /* AdtradeAPI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Project/Pods/Target Support Files/AdtradeAPI";
+			sourceTree = "<group>";
+		};
+		6AE83B6FFEA588BAF786DF240EE705CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFA4E770A0ADAA1F97B051E684EB58DE /* ATNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CA6D6DBCB62E02ED04755FBB92F1F1C /* AdtradeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				13FE659D90C5487F053CA7EE7FE701C1 /* Classes */,
+				6A5BC08424E841A58DCCCC58C6A4DEDB /* Support Files */,
+			);
+			name = AdtradeAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		75136D8BACC9729C3E8321F3A474B39A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D9BA0CEA5F544821F60C956AEBAC3CE /* ATNetworking.xcconfig */,
+				62C3DC0AFF2C7182191E00E0C80EFC0C /* ATNetworking-dummy.m */,
+				5105A8091B50F77F3C7D9256EF091121 /* ATNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ATNetworking";
+			sourceTree = "<group>";
+		};
+		7A1D2F2EB8773896823AB4697DC8422F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E919411E70D9A75D0380F212622AB62 /* Pods-AdtradeAPI */,
+				E1E552578955334F7AAD94860AC6A20C /* Pods-AdtradeAPITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DD08D675C19EC1ABF572891854247077 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6AE83B6FFEA588BAF786DF240EE705CB /* Pods */,
+				4A54DFB66AC89921020A5DEC5A870E3B /* Products */,
+				7A1D2F2EB8773896823AB4697DC8422F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E919411E70D9A75D0380F212622AB62 /* Pods-AdtradeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4DB65190E9D262950E15456C53B21F53 /* Pods-AdtradeAPI-acknowledgements.markdown */,
+				FEBB0D70BAC56A589A389DAFE4651F1A /* Pods-AdtradeAPI-acknowledgements.plist */,
+				37F5BF609DADD68983CF9D06AE6BC920 /* Pods-AdtradeAPI-dummy.m */,
+				9BC02B8D88CFE617F2D9E6EDFFB3B8F3 /* Pods-AdtradeAPI-frameworks.sh */,
+				CCAB241E7523A9C3E81E3B8C4D6ECA16 /* Pods-AdtradeAPI-resources.sh */,
+				62D3A3B1FA09EF83C3642E153A3FD1BE /* Pods-AdtradeAPI.debug.xcconfig */,
+				3DC0EA065A0C2877FD655C69D6C5347E /* Pods-AdtradeAPI.release.xcconfig */,
+			);
+			name = "Pods-AdtradeAPI";
+			path = "Target Support Files/Pods-AdtradeAPI";
+			sourceTree = "<group>";
+		};
+		AFA4E770A0ADAA1F97B051E684EB58DE /* ATNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				97FC97B7F3B45C6B2E8A3744E69C0AC6 /* ATDate.h */,
+				CE754F077C8456F211A9B5E96B704A7F /* ATDate.m */,
+				889286683F89BE6C0DCD74AC9B02155A /* ATHTTPRequest.h */,
+				D54CBDE4B9ADCA3E7393DFBE422A7BB1 /* ATHTTPRequest.m */,
+				D0E74CAD363309BE8FE8A8EA1AEBB14D /* ATNetworking.h */,
+				F3E419250FBC94D472115C800E9E1F32 /* ATNetworking.m */,
+				18267BB7961E096ECD105C7D0C9C0C11 /* ATWebApiResponse.h */,
+				F6E9EAFA34CF7E7AA53F1CC5BEB359EF /* ATWebApiResponse.m */,
+				75136D8BACC9729C3E8321F3A474B39A /* Support Files */,
+			);
+			path = ATNetworking;
+			sourceTree = "<group>";
+		};
+		D4902140A848092688248367FD502C51 /* AdtradeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A2C61EB6E6E26D6CA4C383FD5CBED592 /* ATConstants.h */,
+				76118F6E51421A88ED5044A5FCB3FA5D /* ATConstants.m */,
+			);
+			path = AdtradeAPI;
+			sourceTree = "<group>";
+		};
+		DD08D675C19EC1ABF572891854247077 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CA6D6DBCB62E02ED04755FBB92F1F1C /* AdtradeAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E1E552578955334F7AAD94860AC6A20C /* Pods-AdtradeAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				06168D9F11C27AF11B6D5D7DCF49FCCD /* Pods-AdtradeAPITests-acknowledgements.markdown */,
+				3B4FD8FD3FEFD92C61C2BD6925604CC5 /* Pods-AdtradeAPITests-acknowledgements.plist */,
+				A389EED4AF72956D02AF7DB7A3F23392 /* Pods-AdtradeAPITests-dummy.m */,
+				7344ACD7F836B25394C52C238C82610C /* Pods-AdtradeAPITests-frameworks.sh */,
+				EB52B5B9EC1CEA7389A8EC5067F88DD1 /* Pods-AdtradeAPITests-resources.sh */,
+				18F5C394AADBBC8C98151106600FE4D5 /* Pods-AdtradeAPITests.debug.xcconfig */,
+				3BFFA046CB5899D86A607B0479A7B37A /* Pods-AdtradeAPITests.release.xcconfig */,
+			);
+			name = "Pods-AdtradeAPITests";
+			path = "Target Support Files/Pods-AdtradeAPITests";
+			sourceTree = "<group>";
+		};
+		EA0CC074E0502199920A8912CA2B6D9D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9DB2A0D408E9EC74272D7DD1B89DDFC5 /* AdSupport.framework */,
+				CD82922EB39FDD80B9965CCBD8D1B696 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19E735F3A54C003F027954DAB8D9CDDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F6F0550AEF2B347DF8EBA7F818DA05 /* AdtradeAPI.h in Headers */,
+				781F962F58405228DEE20ADE4E84418D /* ATConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D478CCB7391BBE125B321E95C9FEA3AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0262174E30F692D4995B80D5E0E6F316 /* ATDate.h in Headers */,
+				5F3742B98E614A4BAAD2C7C6FBBCB077 /* ATHTTPRequest.h in Headers */,
+				DA20F5B9C2CDC443AAB159032B3D4AD1 /* ATNetworking.h in Headers */,
+				38374150C6DA6907AEB90A75E57E99CE /* ATWebApiResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D0B55A19ADC3802469ACB934BC06449 /* Pods-AdtradeAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CF4CFB87D2544E117FEDB34D117A82 /* Build configuration list for PBXNativeTarget "Pods-AdtradeAPITests" */;
+			buildPhases = (
+				96F0DF0287CFAB13C75291A4C0414CD1 /* Sources */,
+				E8027A60E5F73EAA24CE282C47FAC2D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5C6C04A3761E6EAD7C250C11C96B35 /* PBXTargetDependency */,
+				C7F9489F5F6943A0372DAA829867E930 /* PBXTargetDependency */,
+			);
+			name = "Pods-AdtradeAPITests";
+			productName = "Pods-AdtradeAPITests";
+			productReference = E339BB4CFF94554B4A5673668C30D303 /* libPods-AdtradeAPITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		52A963B0419CD9E2D7CEC988CE7F4CCC /* AdtradeAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1A3B86FF9DE1F444DD6D603395882B /* Build configuration list for PBXNativeTarget "AdtradeAPI" */;
+			buildPhases = (
+				3A6324E6CC35233221E8BD6496EADE39 /* Sources */,
+				636B518D8C7EC409402A1C5D424E36DB /* Frameworks */,
+				19E735F3A54C003F027954DAB8D9CDDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdtradeAPI;
+			productName = AdtradeAPI;
+			productReference = 40AE81ECC4699C75D5C2372628A44D86 /* libAdtradeAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		558607DD731EE84BE0E43823C20985F3 /* Pods-AdtradeAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E002A186B4F3F4440FB10E01FC491E /* Build configuration list for PBXNativeTarget "Pods-AdtradeAPI" */;
+			buildPhases = (
+				DF0E8D6896AD974D3A3D00564F76CA7E /* Sources */,
+				266007D4CCF1157229BD63FF57D01445 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BDCE6FBC3F301BE6D08A33EC961319 /* PBXTargetDependency */,
+				1F35FA12D3A055973A33B053DF653474 /* PBXTargetDependency */,
+			);
+			name = "Pods-AdtradeAPI";
+			productName = "Pods-AdtradeAPI";
+			productReference = 1460A4C8216417A7BE5B145166ED7438 /* libPods-AdtradeAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125F14C0A6D19CC3419976B61ED2D7AB /* Build configuration list for PBXNativeTarget "ATNetworking" */;
+			buildPhases = (
+				EF192EC53029AF73E4365D9CD7C83AEC /* Sources */,
+				6EFF9C16A88D9B58EFE22FB9A173225D /* Frameworks */,
+				D478CCB7391BBE125B321E95C9FEA3AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATNetworking;
+			productName = ATNetworking;
+			productReference = 86FE06FA703749716AABFF8324BC68D3 /* libATNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4A54DFB66AC89921020A5DEC5A870E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A963B0419CD9E2D7CEC988CE7F4CCC /* AdtradeAPI */,
+				6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */,
+				558607DD731EE84BE0E43823C20985F3 /* Pods-AdtradeAPI */,
+				0D0B55A19ADC3802469ACB934BC06449 /* Pods-AdtradeAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A6324E6CC35233221E8BD6496EADE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1C9D20CA2217B260DF5990355AAC03 /* AdtradeAPI-dummy.m in Sources */,
+				D5023C684EE7718226B1667734738F02 /* AdtradeAPI.m in Sources */,
+				55470D27A0BB566994FE473235B4DE6C /* ATConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F0DF0287CFAB13C75291A4C0414CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6644204917D2719B573BAC35748982 /* Pods-AdtradeAPITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0E8D6896AD974D3A3D00564F76CA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6F298A627900E48D6C1B4144A6D4E /* Pods-AdtradeAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF192EC53029AF73E4365D9CD7C83AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2413DAACAE896EF46049B43E141F478 /* ATDate.m in Sources */,
+				F2E5B320D058D396865762F492E263BF /* ATHTTPRequest.m in Sources */,
+				82B72FC3C7966017317BC7A3C64FAFE1 /* ATNetworking-dummy.m in Sources */,
+				7A0A87FC95966072922A421045B82780 /* ATNetworking.m in Sources */,
+				7174529BE36C080A1DF3EB97B336E196 /* ATWebApiResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05BDCE6FBC3F301BE6D08A33EC961319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATNetworking;
+			target = 6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */;
+			targetProxy = 53ABA4E0428BE5C7B006A7222B99DDFB /* PBXContainerItemProxy */;
+		};
+		1F35FA12D3A055973A33B053DF653474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdtradeAPI;
+			target = 52A963B0419CD9E2D7CEC988CE7F4CCC /* AdtradeAPI */;
+			targetProxy = 9E1DA4D6FDB3DF3C24FD7C9278B57AA3 /* PBXContainerItemProxy */;
+		};
+		5D5C6C04A3761E6EAD7C250C11C96B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATNetworking;
+			target = 6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */;
+			targetProxy = A71FAAA748414A0B67135BC543C0F24B /* PBXContainerItemProxy */;
+		};
+		C7F9489F5F6943A0372DAA829867E930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdtradeAPI;
+			target = 52A963B0419CD9E2D7CEC988CE7F4CCC /* AdtradeAPI */;
+			targetProxy = 6FDF9476E937232376ADAB3B1A8C9C6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A3A0D102F977053E4D3AD426CC302C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9BA0CEA5F544821F60C956AEBAC3CE /* ATNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ATNetworking/ATNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		226E8BA643554E547524ACC25999847E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9BA0CEA5F544821F60C956AEBAC3CE /* ATNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ATNetworking/ATNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		45031EA0B402CB1315B0DF54B0BC4D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC0EA065A0C2877FD655C69D6C5347E /* Pods-AdtradeAPI.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4C13628AF29B33A02CD9D21210B1125C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F5C394AADBBC8C98151106600FE4D5 /* Pods-AdtradeAPITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5F8DDC08D03F7B2F684239EE327C1282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D3A3B1FA09EF83C3642E153A3FD1BE /* Pods-AdtradeAPI.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C3456554DB8B13D014CAC6A5071BD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856E34F7CF72FE752788EC506F9D7E1D /* AdtradeAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AdtradeAPI/AdtradeAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5DC0AFF3DB13E9121AEA727A7216758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856E34F7CF72FE752788EC506F9D7E1D /* AdtradeAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AdtradeAPI/AdtradeAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C3A05C0839CFA5E7930CBEB83B6D91C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFFA046CB5899D86A607B0479A7B37A /* Pods-AdtradeAPITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E002A186B4F3F4440FB10E01FC491E /* Build configuration list for PBXNativeTarget "Pods-AdtradeAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8DDC08D03F7B2F684239EE327C1282 /* Debug */,
+				45031EA0B402CB1315B0DF54B0BC4D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125F14C0A6D19CC3419976B61ED2D7AB /* Build configuration list for PBXNativeTarget "ATNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226E8BA643554E547524ACC25999847E /* Debug */,
+				1A3A0D102F977053E4D3AD426CC302C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CF4CFB87D2544E117FEDB34D117A82 /* Build configuration list for PBXNativeTarget "Pods-AdtradeAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C13628AF29B33A02CD9D21210B1125C /* Debug */,
+				C3A05C0839CFA5E7930CBEB83B6D91C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1A3B86FF9DE1F444DD6D603395882B /* Build configuration list for PBXNativeTarget "AdtradeAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3456554DB8B13D014CAC6A5071BD36 /* Debug */,
+				B5DC0AFF3DB13E9121AEA727A7216758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

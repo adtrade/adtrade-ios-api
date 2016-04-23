@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2ACCAEFB838BBF49031EA253F0885B286EAE85D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "97E947BAA9000FF260CE88CE5CAC43B62B7EFFFE" : 0,
+    "2ACCAEFB838BBF49031EA253F0885B286EAE85D2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "294D2C75-4F53-4C9D-84FF-677EAD7E5BEF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "97E947BAA9000FF260CE88CE5CAC43B62B7EFFFE" : "",
+    "2ACCAEFB838BBF49031EA253F0885B286EAE85D2" : "AdtradeAPI\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AdtradeAPI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Project\/AdtradeAPI\/AdtradeAPI.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adtrade\/Adtrade.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2ACCAEFB838BBF49031EA253F0885B286EAE85D2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adtrade\/libAdtrade.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97E947BAA9000FF260CE88CE5CAC43B62B7EFFFE"
+    }
+  ]
+}

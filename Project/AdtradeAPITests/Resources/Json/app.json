@@ -1,0 +1,29 @@
+{
+    "status":"live",
+    "id":19169,
+    "company_id":9691,
+    "apple_id":1046493024,
+    "app_store_link":"https://itunes.apple.com/us/app/tower-dash/id1046493024?mt=8\u0026uo=4",
+    "name":"Tower Dash",
+    "bundle_identifier":"com.boombitgames.TowerDash",
+    "icon_image_link":"http://is5.mzstatic.com/image/thumb/Purple69/v4/34/a7/68/34a76835-b7b8-9c8b-dd2a-de43a08d2466/source/512x512bb.jpg",
+    "created_at":"2015-11-24T21:53:36.000-08:00",
+    "updated_at":"2015-11-24T21:53:36.000-08:00",
+    "app_key":"FC32F3BB88B7091F4F3AD8B22B105728",
+    "orientation":"Portrait",
+    "url_scheme":null,
+    "is_kids_app":false,
+    "unique_token":null,
+    "app_metadata_id":12749,
+    "display_name":"Tower Dash",
+    "icon_file_name":"512x512bb.jpg",
+    "icon_content_type":"image/jpeg",
+    "icon_file_size":21996,
+    "icon_updated_at":"2015-11-24T21:53:36.000-08:00",
+    "archived":null,
+    "disable_ads":false,
+    "test_ads_enabled":false,
+    "ad_logics":[
+    
+    ]
+}
