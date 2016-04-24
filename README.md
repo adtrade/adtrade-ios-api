@@ -3,7 +3,6 @@ AdtradeAPI
 
 Wrapper for Adtrade API. 
 
-
 Usage
 -----
 
