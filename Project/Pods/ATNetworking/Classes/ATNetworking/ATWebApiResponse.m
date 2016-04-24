@@ -17,7 +17,6 @@
     ATWebApiResponse *webApiResponse = [[ATWebApiResponse alloc] init];
     
     NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
-    NSString* newStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     
     if([jsonObject isKindOfClass:[NSDictionary class]]){
         webApiResponse.data = jsonObject;
@@ -26,7 +25,6 @@
             webApiResponse.totalItems = [jsonObject[@"count"] intValue];
         }
 
-        NSDictionary *dataDictionary;
         if((webApiResponse.errorDictionary = [jsonObject objectForKey:@"error"])){
             NSNumber *codeNumber;
             NSString *domain = @"";

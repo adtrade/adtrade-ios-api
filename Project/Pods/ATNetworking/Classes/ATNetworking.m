@@ -1,7 +1,24 @@
 //
-//  Created by William Locke on 4/9/15.
-//  Copyright (c) 2015 Adtrade. All rights reserved.
+// Created by William Locke on 4/9/15.
+// Copyright (c) 2016 Adtrade (http://adtrade.com/)
 //
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
 
 #import "ATNetworking.h"
 #import "ATHTTPRequest.h"
@@ -12,18 +29,11 @@ static ATNetworking *_sharedWebApi;
 
 + (ATNetworking *)sharedInstance
 {
-    // structure used to test whether the block has completed or not
     static dispatch_once_t p = 0;
-    
-    // initialize sharedObject as nil (first call only)
     __strong static id _sharedObject = nil;
-    
-    // executes a block object once and only once for the lifetime of an application
     dispatch_once(&p, ^{
         _sharedObject = [[self alloc] init];
     });
-    
-    // returns the same object each time
     return _sharedObject;
 }
 
@@ -71,14 +81,14 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
 }
 
 -(void)requestURL:(NSString *)url
-           withParams:(NSMutableDictionary *)params
+           withParams:(NSDictionary *)params
        httpMethod:(NSString *)httpMethod
           options:(NSMutableDictionary *)options completionHandler:(ATWebApiResponseHandler)completionHandler{
     [self requestURL:url withParams:params files:nil httpMethod:httpMethod options:options completionHandler:completionHandler];
 }
 
 -(void)requestURL:(NSString *)url
-           withParams:(NSMutableDictionary *)params
+           withParams:(NSDictionary *)params
             files:(NSMutableArray *)files
        httpMethod:(NSString *)httpMethod
           options:(NSMutableDictionary *)options completionHandler:(ATWebApiResponseHandler)completionHandler{
@@ -86,7 +96,7 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
 }
 
 -(void)requestURL:(NSString *)url
-           withParams:(NSMutableDictionary *)params
+           withParams:(NSDictionary *)params
             files:(NSMutableArray *)files    
        httpMethod:(NSString *)httpMethod
        headerFields:(NSMutableDictionary *)headerFields

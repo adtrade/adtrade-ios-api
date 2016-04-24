@@ -2,7 +2,7 @@
   "name": "AdtradeAPI",
   "version": "1.0.0",
   "summary": "Wrapper for Adtrade API.",
-  "homepage": "https://github.com/adtrade/AdtradeAPI",
+  "homepage": "https://github.com/adtrade/adtrade-ios-api",
   "license": {
     "type": "MIT",
     "file": "LICENSE.txt"

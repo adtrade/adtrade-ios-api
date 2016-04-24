@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   s.summary      = "Wrapper for Adtrade API. "
 
-  s.homepage     = "https://github.com/adtrade/AdtradeAPI"
+  s.homepage     = "https://github.com/adtrade/adtrade-ios-api"
 
 	s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
 

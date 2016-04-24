@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '52A963B0419CD9E2D7CEC988CE7F4CCC'
+               BlueprintIdentifier = '65E50BB8EDB270716346DBCE3D92A1C7'
                BlueprintName = 'AdtradeAPI'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libAdtradeAPI.a'>

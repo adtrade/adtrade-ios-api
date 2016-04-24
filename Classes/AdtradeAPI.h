@@ -23,10 +23,8 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-#import "ATNetworking.h"
 
 @class ATHTTPRequest;
-
 
 @interface AdtradeAPI : NSObject
 

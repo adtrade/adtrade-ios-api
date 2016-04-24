@@ -67,5 +67,5 @@ Sign up to Adtrade (adtrade.com) to get app key.
 Documentation
 -------------
 
-[Apple Docs](http://adtrade.github.io/AdtradeAPI/logs/appledoc/html/Classes/AdtradeAPI.html)
-# adtrade-ios-api
+[Apple Docs](http://adtrade.github.io/adtrade-ios-api/logs/appledoc/html/Classes/AdtradeAPI.html)
+

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6366F35C2010974A01A79E1E7C6C5266'
+               BlueprintIdentifier = '8D3A41ACF7D5D59594A652CF2C994B8C'
                BlueprintName = 'ATNetworking'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libATNetworking.a'>

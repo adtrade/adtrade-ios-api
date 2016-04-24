@@ -1,26 +1,19 @@
 PODS:
-  - AdtradeAPI (1.0.0)
+  - AdtradeAPI (1.0.0):
+    - ATNetworking
   - ATNetworking (1.0.0)
 
 DEPENDENCIES:
   - AdtradeAPI (from `../`)
-  - ATNetworking (from `https://github.com/adtrade/ATNetworking.git`)
 
 EXTERNAL SOURCES:
   AdtradeAPI:
     :path: "../"
-  ATNetworking:
-    :git: https://github.com/adtrade/ATNetworking.git
-
-CHECKOUT OPTIONS:
-  ATNetworking:
-    :commit: 64261d7e7c108babc7d8503e107ffa7369f58124
-    :git: https://github.com/adtrade/ATNetworking.git
 
 SPEC CHECKSUMS:
-  AdtradeAPI: e3d8a09ab588c492bca2362e2d881a02ee36d55c
-  ATNetworking: 2a347276eb29a1fa62eff70536ee812c71ad2166
+  AdtradeAPI: 09120106fafdf3b78c140f12ff9b2f78e23e25e8
+  ATNetworking: fa535fc13fc93dc383dc2dd6952db3f88967f70a
 
-PODFILE CHECKSUM: 01b443e2558ef2e3b6f02e67357dfdbfefeaaa4c
+PODFILE CHECKSUM: 03cd81f5daebb27eecbccca57bc5a7e8e788ad73
 
 COCOAPODS: 1.0.0.beta.6
