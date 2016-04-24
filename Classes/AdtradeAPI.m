@@ -1,6 +1,4 @@
 //
-//  AdtradeAPI.m
-//
 // Created by William Locke on 4/9/15.
 // Copyright (c) 2016 Adtrade (http://adtrade.com/)
 //
@@ -174,9 +172,9 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
 
 #pragma mark Clicks
 -(void)deleteClickForImpression:(NSDictionary *)impression sucess:(void (^ )(NSDictionary *item))success failure:(void (^ )(NSError *error))failure{
-    NSString *impressionID = impression[@"id"] ? impression[@"id"] : impression[@"identifier"];
+    NSString *impressionID = [NSString stringWithFormat:@"%@", impression[@"id"] ? impression[@"id"] : impression[@"identifier"]];
     impression = [self updateCamelcaseToUnderscoreInDictionary:impression];
-    NSMutableDictionary *params = [[NSMutableDictionary alloc] initWithDictionary: @{ @"impression":@{@"id":impressionID, @"unique_token":impression[@"unique_token"]}}];
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] initWithDictionary: @{ @"impression":@{@"id":impressionID, @"unique_token":[NSString stringWithFormat:@"%@", impression[@"unique_token"]]}}];
     [self addDeviceToParams:params];
     
     [self requestURL:@"/clicks/" withParams:params httpMethod:@"DELETE" headers:nil completionHandler:^(NSDictionary *item, NSArray *items, NSError *error, NSDictionary *errorDictionary, NSURLResponse *response, NSDictionary *data) {
