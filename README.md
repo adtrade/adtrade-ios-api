@@ -68,3 +68,4 @@ Documentation
 
 [Apple Docs](http://adtrade.github.io/adtrade-ios-api/logs/appledoc/html/Classes/AdtradeAPI.html)
 
+# adtrade-ios-sdk
