@@ -48,7 +48,7 @@ NSString * const ATDeviceIdentifierTypeIdentifierForVendor = @"identifier_for_ve
 - (id)init{
     self = [super init];
     if (self) {
-        [[ATNetworking sharedInstance] setBaseUrl:@"http://api.adtrade.com/api/"];
+        [[ATNetworking sharedInstance] setBaseUrl:@"https://api.adtrade.com/api"];
     }
     return self;
 }

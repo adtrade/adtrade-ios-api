@@ -57,11 +57,6 @@ Sign up to Adtrade (adtrade.com) to get app key.
 }];
 ```
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/adtrade/AdtradeAPI/master/Resources/show-ad.png?token=ABWhtYhavcfuRcAAOmbv-NPnhQF1rDmHks5XIo7KwA%3D%3D" alt="Example interstitial"/>
-</p>
-
-
 
 Documentation
 -------------
