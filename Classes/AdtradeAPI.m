@@ -148,7 +148,7 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
 }
 
 -(void)deleteImpressionWithID:(nonnull NSString *)impressionID uniqueToken:(nonnull NSString *)uniqueToken sucess:(void (^ )(NSDictionary *item))success failure:(void (^ )(NSError *error))failure{
-    NSMutableDictionary *params = [[NSMutableDictionary alloc] initWithDictionary:@{@"impression":@{@"id":impressionID, @"unique_token":uniqueToken}}];
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] initWithDictionary:@{@"impression":@{@"id":[NSString stringWithFormat:@"%@", impressionID], @"unique_token":[NSString stringWithFormat:@"%@", uniqueToken]}}];
     [self requestURL:[NSString stringWithFormat:@"/impressions/%@", impressionID] withParams:params httpMethod:@"DELETE" headers:nil completionHandler:^(NSDictionary *item, NSArray *items, NSError *error, NSDictionary *errorDictionary, NSURLResponse *response, NSDictionary *data) {
         if (item) {
             success(item);
